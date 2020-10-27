@@ -13,3 +13,22 @@ Fronting cc with a rest api allows us to:
 - different systems can integrate against it
 - easy to pass roles/account numbers for multi account deployments.
 - plan to create a terraform provider.
+
+# Tools
+
+##  Fastapi
+- it is fast(er than Django) (supports async workflows)
+- built in rest api support (no need for django plus drf)
+- hopefully easier to write
+
+## Docker/Kubernetes
+- Webapp packaged in docker image for easy distribution and deployment
+- helm chart for installing on kubernetes
+
+## cloud custodian
+- c7n
+- c7n mailer
+
+## Terraform
+- terraform provider for interacting with api
+- terraform module for deploying aws infrastructure 
